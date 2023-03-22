@@ -1,7 +1,6 @@
 package sso_shop;
 
 import sso_shop.v_data.InvalidInputException;
-
 import java.util.Scanner;
 
 public class sso_menu {
