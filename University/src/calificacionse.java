@@ -9,32 +9,32 @@ public class calificacionse {
         Scanner scan = new Scanner(System.in);
 
         while (firstloop) {
-            System.out.println("Bienvenido al sistema.\nFavor introduza las notas");
+            System.out.println("Bienvenido al sistema de calificaciones.\nFavor introduza las notas");
             for (int i = 0; i >= 3; i++) {
                 short talleres = 0;
                 System.out.println("Introduzca la nota de los talleres.\n" + talleres);
                 contarNotas = scan.nextInt();
                 contarNotas += contarNotas;
             }
-            for (int a = 0; a >= 5; a++) {
+            for (int j = 0; j >= 5; j++) {
                 short investigaciones = 0;
                 System.out.println("Introduzca la nota de los investigaciones.\n" + investigaciones);
                 contarNotas = scan.nextInt();
                 contarNotas += contarNotas;
             }
-            for (int ja = 0; ja >= 5; ja++) {
+            for (int k = 0; k >= 5; k++) {
                 short tareas = 0;
                 System.out.println("Introduzca la nota de los tareas.\n" + tareas);
                 contarNotas = scan.nextInt();
                 contarNotas += contarNotas;
             }
-            for (int g = 0; g == 1; g++) {
+            for (int l = 0; l == 1; l++) {
                 short projectofinal = 0;
                 System.out.println("Introduzca la nota de los tareas.\n" + projectofinal);
                 contarNotas = scan.nextInt();
                 contarNotas += contarNotas;
             }
-            for (int qg = 0; qg == 1; qg++) {
+            for (int m = 0; m == 1; m++) {
                 short projectofinal = 0;
                 System.out.println("Introduzca la nota de los tareas.\n" + projectofinal);
                 contarNotas = scan.nextInt();

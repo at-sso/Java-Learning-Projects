@@ -1,8 +1,5 @@
-package home;
-
 import java.util.Scanner;
 
-// "The local variable may not have been initialized" -🤓
 public class LoopHW {
     public static void main(String[] args) throws Exception {
         interface PrintLineTypedef {
