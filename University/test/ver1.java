@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Lecar {
+public class ver1 {
 
     public static void clearScreen() throws IOException {
         new ProcessBuilder("cmd", "/c", "cls").inheritIO().start().waitFor();
