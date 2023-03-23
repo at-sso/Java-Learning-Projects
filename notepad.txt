@@ -1,15 +1,51 @@
-cars:
-3000000 3400000
-3500000 4000000
+- Objectivos para ganar:
+(Obtener 13 monedas de oro.)
+(Si un jugador quiebra el jugador mas rico ganara.)
+ Basicamente obtener una cantidad estable y grande de monedas es importante.
 
-motorcycle:
-32995 36995
-17599 26299
-16399 17699
++ DATA:
+ (13 cartas de personaje)
+ (1 carta de personaje en blanco)
+ (1 Tablero de la Justicia)
+ (Monedas de oro [por un valor total de 194])
+ (5 Ayudas de juego)
+ (14 fichas de personajes, incluyendo una en blanco)
 
-plane:
-100 000 000
+- REGLAS LOGICAS
+[Limite de jugadores:]
++(MIN: 2) (MAX: 13) (if > LIMIT = throw ex) "ex might not be needed tho"
+[Cada jugador recibe una carta de personaje boca abajo.]
++Will depend on (LIMIT).
 
-143000000 350000000
-3900000000 4000000000
-1173000000 15480000000
+- REGLAS EN LIMITE PARA 4 - "MAX" JUGADORES.
+ +TODOS LOS JUGADORES COMIENZAN CON 6 MONEDAS DE ORO.
+ +DURANTE LA PARTIDA, LA FORTUNA DE CADA JUGADOR DEBE PERMANECE VISIBLE.
+ +EL DINERO RESTANTE DEBE INCLUIRSE EN EL BANCO.
+ +EL PALACIO DE LA JUSTICIA DEBE INCLUIRSE A CIERTA DISTANCIA DEL BANCO.
+
+(REGLAS LOGICAS PARA ESTE LIMITE)
+- Reglas ambiguas (No deberia existir ninguna)
+    Las fichas de personaje se utilizan para hacer un seguimiento de qué personajes
+    están presentes en la partida. Te sugerimos que las coloques al lado del Palacio
+    de Justicia.
+
+- Como comienza la partida:
+    Haz un limite random de 18 - 30 años 
+    (incluye mes de nacimiento por si aparecen numeros indenticos).
+    El jugador mas joven obtiene el primer turno.
+    Una vez se obtiene toda esta informacion, forma a los jugadores de-
+    -una manera especifica, una vez se formen la partida se desarrolla-
+    -en orden.
+
+- En una partida de 4 - 5 jugadores. DO:
+    Cada jugador recibe 6 cartas de personajes.
+    Las cartas restantes son visibles hasta una confirmacion de todos los jugadores.
+    Una vez terminada la confirmacion las cartas se ocultan.
+
+- En una partida de 6 - "MAX" jugadores. DO:
+    Divide el numero de cartas entre los jugadores existentes.
+    Las cartas restantes eliminalas de la memoria.
+
+- Regla de cartas.
+    Todos los jugadores reciben las cartas de menera random.
+    Se le da una carta boca arriba a cada jugador.
