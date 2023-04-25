@@ -1,4 +1,4 @@
-package sso_shop;
+package anotherShoplol;
 
 import java.util.Scanner;
 import java.util.HashMap;

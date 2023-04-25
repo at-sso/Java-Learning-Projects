@@ -1,7 +1,3 @@
-/* Se utilizo un loop para mostrar el resultado de manera continua hasta que el programa se cierre.
- * La lógica fue diseñada de esta manera a propósito.
- * Hecho por Ian Bernal - 8-995-1338 */
-
 public class Rand {
     public static int getRandomNumber(int min, int max) {
         return (int) ((Math.random() * (max - min)) + min);
